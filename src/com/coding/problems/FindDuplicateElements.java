@@ -3,6 +3,10 @@ package com.coding.problems;
 import java.util.HashMap;
 import java.util.Random;
 
+/*
+ * The resultant array should provide duplicates for many cases
+ * It should work as long as every element within the array is: 0 <= x < N
+ */
 public class FindDuplicateElements {
 
 	//creates an array with all values sorted.
