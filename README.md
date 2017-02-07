@@ -2,12 +2,14 @@ This Readme describes the individual applications located within the src directo
 
 BaseConverter:
 	A solution to the Google Code Jam Round 1C 2009 problem A
+	
 	- Takes a string input, converts characters to numbers in the lowest base possible dependent on the number of characters in the string
 	- Minimizes the number by using the smallest available digits possible in the most significant location
 	- Takes the derived number and its base and converts it to decimal
 	
 DistinctArray:
 	A solution to a random coding problem stumbled upon online
+	
 	- Takes an array of integers as input
 	- Also take a lowest/highest bound for a number line
 	- Derive a string that describes the numbers not included in the initial array
@@ -17,6 +19,7 @@ DistinctArray:
 		
 ThreeCoin:
 	A solution to a random coding problem stumbled upon online
+	
 	- Takes in 3 coin values as input, and a maximum sum size.
 	- Derives all possible coin values between 0 and the maximum sum size in order from smallest to largest sum.
 	- Example:
@@ -25,6 +28,7 @@ ThreeCoin:
 		
 CodingProblemOne:
 	A solution to a random coding problem stumbled upon online
+	
 	- Takes an input integer
 	- Outputs an integer that is the maximum of all possible integers derived by taking two adjacent values in the integer and replacing both of those values with the ceiling of the average.
 	- Example:
@@ -33,6 +37,7 @@ CodingProblemOne:
 		
 CodingProblemTwo:
 	A solution to a random coding problem stumbled upon online
+	
 	- Takes a string representing a directory listing as input.
 		1. All names are separated by a newline character: '\n'
 		2. Directory depth is represented by the number of ' ' or spaces before the name
