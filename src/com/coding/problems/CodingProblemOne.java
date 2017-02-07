@@ -15,18 +15,18 @@ public class CodingProblemOne {
 		ArrayList<Integer> list = splitNumber(X);
         
 		/************************************************/
-		/* Start at the most significant digits			*/
-		/* Get the two digits w/respect to location		*/
-		/* Average those values and ceiling them		*/
-		/* Make the new number by:						*/
-		/* 	-Clearing the two digits					*/
-		/*	-Adding the average value * smallest digit	*/
-		/* We only need to keep doing this until		*/
-		/*  the newX is <= the current maxX				*/
-		/* If replacing the ith location is smaller		*/
-		/* than the previous step... then we won't		*/
-		/* find any larger changes in less significant	*/
-		/* digits... 10^4 * 1 > 10^3 * 9 + 10^2 * 9 ... */
+		/*	Start at the most significant digits			
+			Get the two digits w/respect to location		
+			Average those values and ceiling them		
+			Make the new number by:						
+			 -Clearing the two digits			
+			 -Adding the average value * smallest digit	
+			We only need to keep doing this until		
+			the newX is <= the current maxX				
+			If replacing the ith location is smaller		
+			than the previous step... then we won't		
+			find any larger changes in less significant	
+			digits... 10^4 * 1 > 10^3 * 9 + 10^2 * 9 ... */
 		/************************************************/
 		for(int i = list.size()-1; i > 0; i--){
 			
