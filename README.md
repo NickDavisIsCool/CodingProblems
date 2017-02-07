@@ -46,3 +46,12 @@ This Readme describes the individual applications located within the src directo
 		Input: "DIRECTORY\n DIRECTORY293\n DIRECTORY9292\n  file.jpeg\n name.gif"
 		Output: 24, String: "DIRECTORY/DIRECTORY9292/"
 		
+###FindDuplicateElements:
+	A solution to finding multiple duplicate elements in an array when each element is 0 <= x < N, where N is the size of the array.
+	- Generates an array with d duplicates
+	- Outputs a sorted array with an internally represented format for duplicates.
+	- Can detect:
+		1. The number of duplicates that a given value has within the array
+		2. Duplicates associated with multiple values in the array
+	- Works in O(N) time (loops 3N time to display duplicates), with O(1) space (does not create extra data structures outside of the initial array
+		
