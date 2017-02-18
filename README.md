@@ -23,7 +23,7 @@ This Readme describes the individual applications located within the src directo
 		Input: Coins: 5, 53, 76; maxSum: 1000
 		Condensed Output: 0,5,10,15,20,25,30,35,40,50,53,55,58,60,63,65,68,70,73,75,76,...
 		
-###CodingProblemOne:
+###MaximumDigitReplacement:
 	A solution to a random coding problem stumbled upon online
 	- Takes an input integer
 	- Outputs an integer that is the maximum of all possible integers derived by taking two adjacent values in the integer and replacing both of those values with the ceiling of the average.
@@ -31,7 +31,7 @@ This Readme describes the individual applications located within the src directo
 		Input: 792838
 		Output: 82838 (7 + 9 / 2 = 8, replace 79 with 8, 82838 > 7....)
 		
-###CodingProblemTwo:
+###MaxDirListingLength:
 	A solution to a random coding problem stumbled upon online
 	- Takes a string representing a directory listing as input.
 		1. All names are separated by a newline character: '\n'
