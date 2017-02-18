@@ -5,7 +5,7 @@ import java.util.ArrayList;
 //Reduce a number's size by a power of ten
 //by taking two adjacent numbers and replacing them with the average
 //find the maximum of these numbers
-public class CodingProblemOne {
+public class MaximumDigitReplacement {
 
 	public static void main(String[] args) {
 		

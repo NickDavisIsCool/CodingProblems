@@ -2,7 +2,7 @@ package com.coding.problems;
 
 import java.util.ArrayList;
 
-public class CodingProblemTwo {
+public class MaxDirListingLength {
 
 	public static void main(String[] args) {
 		
