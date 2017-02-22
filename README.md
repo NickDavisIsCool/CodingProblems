@@ -1,4 +1,5 @@
 This Readme describes the individual applications located within the src directory.
+Eventually I want to make a coding problem testing system that allows people to upload a problem type and the current solution (something I or other people come up with), and then create a problem interface for other people to download and try to implement their own solution, kind of like a "coding problem repository" that just has a bunch of coding problems, the current solutions, and a way for people to clone the repository and try to implement their own solutions to the problems presented while having a way to check their correctness against multiple example problems.  I also want to implement a timing feature (i.e. time their code execution, maybe time how long it takes for them to submit a final solution somehow?)
 
 ###BaseConverter:
 	A solution to the Google Code Jam Round 1C 2009 problem A
